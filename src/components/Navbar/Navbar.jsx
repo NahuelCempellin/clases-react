@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import logo from "../../assets/react.svg";
 import Button from "../Button/Button";
 
-const Navbar = ({ dark, setDark }) => {
+const Navbar = () => {
   return (
     <div className="navbar-container">
       <div className="logo-container">
@@ -13,7 +13,7 @@ const Navbar = ({ dark, setDark }) => {
         </div>
       </div>
 
-      <Button dark={dark} setDark={setDark} />
+      <Button />
 
       <div className="menu-box">
         <Link to={"/"}>Inicio</Link>

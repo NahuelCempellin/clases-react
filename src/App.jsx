@@ -11,12 +11,13 @@ function App() {
 
   return (
     <div className={dark === true ? "containter" : "containter-light"}>
-      <Navbar dark={dark} setDark={setDark} />
+      {/* <Navbar dark={dark} setDark={setDark} />
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-      </Routes>
+      </Routes> */}
+      <h1>estoy en app</h1>
     </div>
   );
 }

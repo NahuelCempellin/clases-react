@@ -8,7 +8,7 @@ const Landing = () => {
   ];
 
   return (
-    <div className="containter-component">
+    <div className="containter">
       {array.map((el, index) => {
         return (
           <Card
@@ -16,6 +16,7 @@ const Landing = () => {
             nombre={el.nombre}
             img={el.logo}
             descripcion={el.descripcion}
+            id={index}
           />
         );
       })}
